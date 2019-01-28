@@ -1,5 +1,5 @@
 # JavaScript__LucasR
-## Cours de JavaScript par Anastasia Ousin
+## Cours de JavaScript par Anastasia Oudin
 
 - [Leçon1](https://github.com/lucasreq/JavaScript__LucasR/tree/master/Le%C3%A7on_1)
 
