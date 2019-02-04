@@ -56,36 +56,50 @@
 ```
 ## Navigator
  * 1. nom de votre navigateur
+
+```javascript
 const addUnTruc = document.querySelector('.main-paragraph');
 addUnTruc.innerText = navigator.userAgent;
-
+```
  * 2. langue principal de votre navigateur
+
+```javascript
 const addUnAutreTruc = document.querySelector('.second-paragraph');
 addUnAutreTruc.innerText = navigator.language;
+```
 
  * 3. platforme de votre ordinateur
+```javascript
 const addUnMachin = document.querySelector('.paragraph-3');
 addUnMachin.innerText = navigator.platform;
-
+```
 * 4. si vous avez activé les cookies dans votre navigateur
+```javascript
 const addUnAutreMachin = document.querySelector('.paragraph-4');
 addUnAutreMachin.innerText = navigator.cookieEnabled;
+```
 
 ## screen
 
  ### Affichez sur la page
 * 1. largeur de l'écran de votre ordinateur:
+```javascript
 const superPage1 = document.querySelector('.ecran-largeur');
 superPage1.innerText = screen.width;
+```
 
 * 2. hauteur de l'écran de votre ordinateur:
+```javascript
 const superPage2 = document.querySelector('.ecran-hauteur');
 superPage2.innerText = screen.height;
+```
 
 * 3. orientation de votre écran:
 
+```javascript
 const superPage3 = document.querySelector('.ecran-3');
 superPage3.innerText = screen.orientation["type"];
+```
 
 ## window
  Affichez sur la page:
