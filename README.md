@@ -3,7 +3,7 @@
 
 - [Leçon1](https://github.com/lucasreq/JavaScript__LucasR/tree/master/Le%C3%A7on_1)
 
--Leçon2... en attente
+- [Leçon2](https://github.com/lucasreq/JavaScript__LucasR/tree/master/Le%C3%A7on_2)
 
 -Leçon3... en attente
 
