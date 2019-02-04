@@ -1,4 +1,5 @@
-# DOM
+#Leçon 2 : DOM
+
 ```javascript
 
  const myDivs = 
