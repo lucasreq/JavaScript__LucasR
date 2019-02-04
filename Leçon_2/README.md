@@ -1,44 +1,57 @@
 # DOM
 ```javascript
+
  const myDivs = 
  document.getElementsByTagName('div');
  console.log('myDivs',myDivs)
+ 
  const myDivs2 = 
  document.querySelectorAll('div');
  console.log('myDivs2',myDivs)
+ 
  const myParagraphs =
  document.getElementsByClassName('secondary-paragraph');
+ 
  const myParagraphs2 = document.querySelectorAll('.secondary-paragraph')
+ 
  const myUniqueEl = 
  document.getElementById('js-unique-el');
+ 
  const myUniqueEl2 =
  document.querySelectorAll('#js-unique-el')
+ 
  const myParagraphsInDivs =
  document.querySelectorAll('div p');
  console.log('myParagraphsInDivs',myParagraphsInDivs)
+ 
  const spanBeforeDiv = document.querySelectorAll('div + span');
- console.log('spanBeforeDiv',spanBeforeDiv
+ console.log('spanBeforeDiv',spanBeforeDiv)
+ 
  const firstP = document.querySelector('.first-p');
  firstP.innerText= 'I am the first paragraph';
  console.log('firstP > text', firstP.innerText)
+ 
  const secondP = document.querySelector('.second-p');
  secondP.innerHTML = '<span>Hello</span>';
  console.log('secondP html', secondP.innerHTML)
+ 
  const myImg = document.querySelector('img');
- myImg.setAttribute('width','50%');
- myImg.setAttribute('height','auto')
- myImg.setAttribute('alt','Random image')
- firstP.style.color = 'blue';
- firstP.style.fontSize = '1.5rem'
- myImg.className = 'my-class'; // myImg.className += 'another-class'
- myImg.classList.add('my-class');
- myImg.classList.remove('some-class')
+    myImg.setAttribute('width','50%');
+    myImg.setAttribute('height','auto')
+    myImg.setAttribute('alt','Random image')
+    firstP.style.color = 'blue';
+    firstP.style.fontSize = '1.5rem'
+    myImg.className = 'my-class'; // myImg.className += 'another-class'
+    myImg.classList.add('my-class');
+    myImg.classList.remove('some-class')
+ 
  const myBody = document.querySelector('body');
+ 
  const newEl = document.createElement('p');
- newEl.innerText = 'Hello';
- newEl.style.color = 'red';
- myBody.appendChild(newEl)
-myBody.removeChild(newEl2);
+    newEl.innerText = 'Hello';
+    newEl.style.color = 'red';
+    myBody.appendChild(newEl)
+    myBody.removeChild(newEl2);
 ```
 ## Navigator
  * 1. nom de votre navigateur
@@ -78,6 +91,7 @@ superPage3.innerText = screen.orientation["type"];
  * 1. largeur de la fenêtre d'affichage de votre navigateur
 
 ```javascript
+
 const superEcran = document.querySelector('.window-1');
 superEcran.innerText = window.width;
 ```
@@ -107,6 +121,7 @@ superEcran4.innerText = navigator.height;
 
 
 ```javascript
+
 const myBtn = document.querySelector('#js-btn')
 myBtn.addEventListener('click', (event) => {
     console.log('Clicked', event);
@@ -151,4 +166,5 @@ jsForm.addEventListener('submit',(event) => {
     event.preventDefault
     alert(`Your input is ${myInput.value}`);
 })
+
 ```
