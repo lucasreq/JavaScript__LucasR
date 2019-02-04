@@ -1,4 +1,4 @@
-#Leçon 2 : DOM
+# Leçon 2 : DOM
 
 ```javascript
 
