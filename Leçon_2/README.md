@@ -55,25 +55,25 @@
     myBody.removeChild(newEl2);
 ```
 ## Navigator
- * 1. nom de votre navigateur
+ 1. nom de votre navigateur
 
 ```javascript
 const addUnTruc = document.querySelector('.main-paragraph');
 addUnTruc.innerText = navigator.userAgent;
 ```
- * 2. langue principal de votre navigateur
+ 2. langue principal de votre navigateur
 
 ```javascript
 const addUnAutreTruc = document.querySelector('.second-paragraph');
 addUnAutreTruc.innerText = navigator.language;
 ```
 
- * 3. platforme de votre ordinateur
+ 3. platforme de votre ordinateur
 ```javascript
 const addUnMachin = document.querySelector('.paragraph-3');
 addUnMachin.innerText = navigator.platform;
 ```
-* 4. si vous avez activé les cookies dans votre navigateur
+ 4. si vous avez activé les cookies dans votre navigateur
 ```javascript
 const addUnAutreMachin = document.querySelector('.paragraph-4');
 addUnAutreMachin.innerText = navigator.cookieEnabled;
@@ -82,19 +82,19 @@ addUnAutreMachin.innerText = navigator.cookieEnabled;
 ## screen
 
  ### Affichez sur la page
-* 1. largeur de l'écran de votre ordinateur:
+ 1. largeur de l'écran de votre ordinateur:
 ```javascript
 const superPage1 = document.querySelector('.ecran-largeur');
 superPage1.innerText = screen.width;
 ```
 
-* 2. hauteur de l'écran de votre ordinateur:
+ 2. hauteur de l'écran de votre ordinateur:
 ```javascript
 const superPage2 = document.querySelector('.ecran-hauteur');
 superPage2.innerText = screen.height;
 ```
 
-* 3. orientation de votre écran:
+ 3. orientation de votre écran:
 
 ```javascript
 const superPage3 = document.querySelector('.ecran-3');
@@ -103,7 +103,7 @@ superPage3.innerText = screen.orientation["type"];
 
 ## window
  Affichez sur la page:
- * 1. largeur de la fenêtre d'affichage de votre navigateur
+ 1. largeur de la fenêtre d'affichage de votre navigateur
 
 ```javascript
 
@@ -111,21 +111,21 @@ const superEcran = document.querySelector('.window-1');
 superEcran.innerText = window.width;
 ```
 
- * 2. hauteur de la fenêtre d'affichage de votre navigateur
+ 2. hauteur de la fenêtre d'affichage de votre navigateur
 
 ```javascript
 const superEcran2 = document.querySelector('.window-2');
 superEcran2.innerText = window.height;
 ```
 
- * 3. largeur de votre navigateur
+ 3. largeur de votre navigateur
 
 ```javascript
 const superEcran3 = document.querySelector('.window-3');
 superEcran3.innerText = navigator.width;
 ```
 
- * 4. hauteur de votre navigateur
+ 4. hauteur de votre navigateur
 ```javascript
 const superEcran4 = document.querySelector('.window-4');
 superEcran4.innerText = navigator.height;
