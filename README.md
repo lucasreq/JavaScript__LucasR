@@ -7,9 +7,9 @@
 
 - [Leçon3](https://github.com/lucasreq/JavaScript__LucasR/tree/master/Le%C3%A7on_3)
 
-- [Leçon3](https://github.com/lucasreq/JavaScript__LucasR/tree/master/Le%C3%A7on_4)
+- [Leçon4](https://github.com/lucasreq/JavaScript__LucasR/tree/master/Le%C3%A7on_4)
 
-- [Leçon3](https://github.com/lucasreq/JavaScript__LucasR/tree/master/Le%C3%A7on_5)
+- [Leçon5](https://github.com/lucasreq/JavaScript__LucasR/tree/master/Le%C3%A7on_5)
 
-- [Leçon3](https://github.com/lucasreq/JavaScript__LucasR/tree/master/Le%C3%A7on_6)
+- [Leçon6](https://github.com/lucasreq/JavaScript__LucasR/tree/master/Le%C3%A7on_6)
 
