@@ -13,11 +13,11 @@ $('#js-bmi-form')[0].addEventListener('submit', (event) => {
     const inputValue2 = $('#js-bmi-height').val();
 
     // Conversion char --> Float
-    var nombre1 = parseFloat(inputValue1);
-    var nombre2 = parseFloat(inputValue2);
+    var weight = parseFloat(inputValue1);
+    var height = parseFloat(inputValue2);
 
     //Calcul BMI
-    var BMI = nombre1 / ((nombre2 / 100) * (nombre2 / 100));
+    var BMI = weight/ ((height / 100) * (height / 100));
 
     console.log(BMI)
 
@@ -29,19 +29,22 @@ $('#js-bmi-form')[0].addEventListener('submit', (event) => {
     if (BMI < 18.5) {
         console.log("considered underweight");
         var element = document.createElement("div");
-        element.innerHTML = "<p> Vôtre BMI est égale à " + BMI + ". Considered underweight."
+        element.innerHTML = ("<p> Votre BMI est égale à " + BMI + ". Considered underweight.");
+        alert("considered underweight")
         $('#idk').append(element);
     }
     if (BMI >= 18.5 && BMI <= 25) {
-        console.log("a healthy weight");
+        console.log("healthy weight");
         var element = document.createElement("div");
-        element.innerHTML = "<p> Vôtre BMI est égale à " + BMI + ". Healthy weight"
+        element.innerHTML = ("<p> Votre BMI est égale à " + BMI + ". Healthy weight");
+        alert("healthy weight")
         $('#idk').append(element);
     }
     if (BMI > 25) {
         console.log("considered overweight");
         var element = document.createElement("div");
-        element.innerHTML = "<p> Vôtre BMI est égale à " + BMI + ". Considered overweight"
+        element.innerHTML = ( "<p> Votre BMI est égale à " + BMI + ". Considered overweight");
+        alert("Too fat")
         $('#idk').append(element);
     }
 });
